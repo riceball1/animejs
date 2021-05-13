@@ -1,2 +1,3 @@
 # animejs
-learning to use animejs
+
+Learning to use animejs
