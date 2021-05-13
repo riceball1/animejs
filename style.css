@@ -1,6 +1,17 @@
-.square {
+body {
+  background-color: black;
+}
+
+.el {
   width: 100px;
   height: 100px;
   position: relative;
   left: 0;
+  border-radius: 50;
+  background-color: hotpink;
+  border: 1px dashed lightgray;
+}
+
+.controls {
+  margin-top: 40px;
 }

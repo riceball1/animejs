@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS Animation with Anime</title>
+    <meta name="author" content="Maryam Hanafiah" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JS Animation with Anime</title>
-  <meta name="author" content="Maryam Hanafiah">
-  <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="container">
+      <div class="el"></div>
+      <div class="el"></div>
+      <div class="el"></div>
+    </div>
 
-</head>
-
-<body>
-
-  <div class="square" style="background-color: blue">
-  </div>
-  <div class="square" style="background-color: red">
-  </div>
-  <div class="square" style="background-color: yellow">
-  </div>
-
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+    <div class="controls">
+      <button class="play">Play</button><button class="pause">Pause</button><button class="restart">Restart</button>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+    integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
 </html>

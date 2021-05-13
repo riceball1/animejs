@@ -1,9 +1,15 @@
-const squares = document.getElementsByClassName('square');
-const allElements = document.querySelectorAll('div');
+const animation = anime({
+  targets: ".el",
+  translateX: 270,
+  delay: function (el, i) {
+    return i * 400;
+  },
+  direction: "alternate",
+  loop: true,
+  autoplay: false,
+  easing: "easeInOutSine",
+});
 
-allElements.forEach((element, i) => {
-    anime({
-        targets: element,
-        left: 300 + (i * 50),
-    });
-})
+document.querySelector(".play").onclick = animation.play;
+document.querySelector(".pause").onclick = animation.pause;
+document.querySelector(".restart").onclick = animation.restart;
